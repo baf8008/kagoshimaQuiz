@@ -100,7 +100,7 @@
         btn.classList.add('disabled');
 
         if (currentNum === quizSet.length - 1) {
-            scoreLable.textContent = `スコア　 ${score} / ${quizSet.length}`;
+            scoreLable.textContent = `スコア ${score} / ${quizSet.length}`;
             //resultからhiddenクラスを外す処理
             result.classList.remove('hidden');
         } else {

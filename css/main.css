@@ -618,11 +618,19 @@ body {
     font-size: 1.0rem;
     font-weight: bold;
   }
-  #btn,
-  #result > a {
+  #btn {
     font-size: 1.5rem;
     padding: 0.5rem;
-    border-radius: 4px;
+  }
+  #result {
+    width: 61%;
+  }
+  #result > p {
+    font-size: 2.0rem;
+  }
+  #result > a {
+    font-size: 1.0rem;
+    padding: 0.5rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
