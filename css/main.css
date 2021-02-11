@@ -606,8 +606,7 @@ body {
     font-weight: normal;
   }
   .container {
-    width: 100%;
-    margin: 0;
+    width: 98%;
   }
   #question {
     margin-bottom: 1.0rem;
