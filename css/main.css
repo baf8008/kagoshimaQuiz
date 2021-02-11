@@ -594,4 +594,35 @@ body {
 #result > a {
   display: block;
 }
+
+@media screen and (max-width: 550px) {
+  .imge {
+    width: 100%;
+    background-size: cover;
+    background-position: 40%;
+  }
+  .theme {
+    font-size: 2.5rem;
+    font-weight: normal;
+  }
+  .container {
+    width: 85%;
+  }
+  #question {
+    margin-bottom: 1.0rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  #choices {
+    margin-bottom: 1.0rem;
+    font-size: 1.0rem;
+    font-weight: bold;
+  }
+  #btn,
+  #result > a {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
