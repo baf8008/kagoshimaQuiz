@@ -144,7 +144,7 @@ body {
     }
 
     .container {
-        width: 85%;
+        width: 100%;
     }
 
     #question {
@@ -165,7 +165,8 @@ body {
     }
 
     #result {
-        width: 61%;
+        width: 85%;
+        padding: 2.0rem;
     }
 
     #result>p {
