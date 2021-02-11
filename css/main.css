@@ -607,6 +607,7 @@ body {
   }
   .container {
     width: 100%;
+    margin: 0;
   }
   #question {
     margin-bottom: 1.0rem;
